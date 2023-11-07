@@ -7,7 +7,7 @@ import Busqueda from "./front/components/busqueda/Busqueda";
 import { ModalProvider } from "./front/commons/modal/ModalContext";
 import Favoritos from "./front/components/favoritos/Favoritos";
 import { UserProvider } from "./front/components/inicio/userContext";
-
+//
 function App() {
   return (
     <div>
