@@ -1,0 +1,31 @@
+.busqueda {
+  min-width: 100%;
+  min-height: 100vh;
+  background: -webkit-linear-gradient(bottom, #181818 99%, #000000);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  .wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 80%;
+    margin: 5rem;
+    .cardBusqueda {
+      width: 20%;
+      cursor: pointer;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+.cardBusqueda:hover {
+  // transform: rotateY(180deg);
+  // zoom: 50%;
+  transform: matrix();
+}
